@@ -11,21 +11,39 @@
 </head>
 
 <body>
-    <section class=" flex justify-between items-start main min-h-screen  ">
-        <div class="bg-[url('/images/bg.png')] bg-no-repeat bg-cover w-2/3 flex justify-center ">
-            <img class="w-2/4 p-10" src="/images/illustration.png" alt="">
+    <section class=" lg:flex justify-between items-start main lg:min-h-screen  ">
+        <div class="bg-[url('/images/bg.png')] bg-no-repeat bg-cover lg:w-2/3 flex justify-center ">
+            <img class="lg:w-2/4 p-10" src="/images/illustration.png" alt="">
         </div>
 
         <div
-            class="flex flex-col justify-center items-center relative top-20 right-60 px-20 py-10 rounded-lg  bg-white shadow-lg">
-            <img class="w-20" src="/images//logo.png" alt="">
-            <h4>Explore The Best Tours... Hurry up!!</h4>
-            <div class="my-8 flex flex-col">
+            class="flex flex-col justify-center items-center relative top-16 lg:right-60 px-20 py-8 rounded-lg  bg-white shadow-lg">
+            <img class="w-16" src="/images//logo.png" alt="">
+            <h4 class="login-header text-violet-800 lg:text-lg text-sm my-2">Explore The Best Tours... Hurry up!!</h4>
+            <div class="my-6 flex flex-col">
                 <input class="border-2 px-4 py-1 rounded-md border-gray-300" type="email" placeholder="Email Address">
                 <input class="border-2 px-4 py-1 rounded-md border-gray-300 mt-3" type="password"
                     placeholder="Password">
+                <a href="/" class="text-sm text-right text-red-600 my-1">Forgot Password? </a>
 
-                <button class="login-btn bg-blue-700 mt-3">Login</button>
+
+                <button class="login-btn uppercase text-md  font-medium py-1 rounded mt-3 text-white">Log
+                    in</button>
+
+                <div class="flex items-center justify-center mt-4 w-full">
+                    <img class="w-20" src="/images/line.png" alt="">
+                    <p class="mx-5 my-3">or</p>
+                    <img class="w-20" src="/images/line.png" alt="">
+                </div>
+                <div class="flex justify-around p-3">
+                    <button> <img class="w-8 h-8" src="/images/facebook.png" alt=""></button>
+                    <button>
+                        <img class="w-8 h-8" src="/images/google.png" alt="">
+                    </button>
+
+
+                </div>
+                <p class="sign-up-text text-sm  mt-3">Don't have an account? <a href="/">Sign Up</a></p>
             </div>
         </div>
 
